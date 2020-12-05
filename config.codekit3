@@ -58,9 +58,9 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/content/sharpay.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/dev/global/head.kit": {
 		"cB": 0,
