@@ -426,16 +426,18 @@ textarea {
 /* =============
     Demo
 ============= */
-.box {
-  height: 200px;
-  width: 200px;
-  margin-bottom: 300px;
+#sharpay-container {
+  display: grid;
+  grid-template-columns: auto 1% auto;
+  grid-template-areas: ". sharpay .";
 }
-
-.red-box {
-  background-color: #f13232;
+#sharpay-container > div {
+  grid-area: sharpay;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-
-.blue-box {
-  background-color: #167cd0;
+#sharpay-container > div svg {
+  width: 100%;
 }

@@ -46,14 +46,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/content/sharpay.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/content/sharpay.html",
-		"oF": 0
-		},
 	"/dev/content/sharpay.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -85,6 +77,17 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 3
+		},
+	"/dev/js/demo-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dev/js/demo-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/dev/js/demo.js": {
 		"bF": 0,
@@ -238,7 +241,7 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/dev/scss/sections/_demo.scss": {
+	"/dev/scss/sections/_sharpay.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -246,7 +249,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/dev/scss/sections/_demo.css",
+		"oAP": "/dev/scss/sections/_sharpay.css",
 		"oF": 1,
 		"oS": 0,
 		"sct": 0

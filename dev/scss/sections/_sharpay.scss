@@ -1,0 +1,21 @@
+/* =============
+    Demo
+============= */
+
+#sharpay-container{
+    display: grid;
+    grid-template-columns: auto 1% auto;
+    grid-template-areas: ". sharpay .";
+
+    >div{
+        grid-area: sharpay;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+        svg{
+            width: 100%;
+        }
+    }
+}
