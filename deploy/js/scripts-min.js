@@ -9814,9 +9814,22 @@
       .from("#gem-copy-2", {opacity:0})
       .from(".light", {opacity:0, stagger:0.07, duration:1, ease:"back"})
       .from("#gem-copy", {opacity:0})
-      .delay(8);    
+      .delay(10);    
       
     return gpsTL;
+
+  }
+
+  const gasTL = gsapWithCSS.timeline();
+
+  function gasAnimation(){
+      gasTL.from("#gas-border",{opacity:0, duration:1, yPercent: 50})
+          .from(".star", {opacity:0, stagger:0.05, ease:"back"})
+      //.from(".light", {opacity:0, stagger:0.07, duration:1, ease:"back"})
+      //.from("#gem-copy", {opacity:0})
+      .delay(8);    
+      
+    return gasTL;
 
   }
 
@@ -9841,7 +9854,10 @@
       marqueeleftTL$1.add(marqueeleftAnimation());
 
   const gpsTL$1 = gsapWithCSS.timeline();
-      gpsTL$1.add(gpsAnimation());    
+      gpsTL$1.add(gpsAnimation());
+
+  const gasTL$1 = gsapWithCSS.timeline();
+      gasTL$1.add(gasAnimation());  
 
 
 

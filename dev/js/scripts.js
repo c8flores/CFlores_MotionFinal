@@ -43,7 +43,13 @@ const marqueeleftTL = gsap.timeline()
 import {gpsAnimation} from "./gps-screen/gps-screen.js"
 
 const gpsTL = gsap.timeline()
-    gpsTL.add(gpsAnimation());    
+    gpsTL.add(gpsAnimation());
+    
+    
+import {gasAnimation} from "./gas-indicator/gas-indicator.js"
+
+const gasTL = gsap.timeline()
+    gasTL.add(gasAnimation());  
 
 
 
