@@ -46,12 +46,92 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/content/audio-svg/audio.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/audio-svg/audio.html",
+		"oF": 0
+		},
+	"/dev/content/dash-background/background.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/dash-background/background.html",
+		"oF": 0
+		},
+	"/dev/content/gas-indicator/gas-indicator.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/gas-indicator/gas-indicator.html",
+		"oF": 0
+		},
+	"/dev/content/gps-screen/gps-screen.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/gps-screen/gps-screen.html",
+		"oF": 0
+		},
+	"/dev/content/marquee-left/marquee-left.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/marquee-left/marquee-left.html",
+		"oF": 0
+		},
+	"/dev/content/marquee-right/marquee-right.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/marquee-right/marquee-right.html",
+		"oF": 0
+		},
+	"/dev/content/mph/mph.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/mph/mph.html",
+		"oF": 0
+		},
+	"/dev/content/mustang-logo/mustang-logo.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/mustang-logo/mustang-logo.html",
+		"oF": 0
+		},
+	"/dev/content/rpm/rpm.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/rpm/rpm.html",
+		"oF": 0
+		},
 	"/dev/content/sharpay.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/content/sharpay.html",
+		"oF": 0
+		},
+	"/dev/content/words/words.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/words/words.html",
 		"oF": 0
 		},
 	"/dev/global/head.kit": {
@@ -78,25 +158,14 @@
 		"oAP": "/deploy/index.html",
 		"oF": 3
 		},
-	"/dev/js/demo-min.js": {
+	"/dev/js/dash-background/background.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dev/js/demo-min-min.js",
+		"oAP": "/dev/js/dash-background/background-min.js",
 		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/demo.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/demo-min.js",
-		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -104,10 +173,32 @@
 		"bF": 4,
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "/deploy/js/scripts-min.js",
 		"oF": 3,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sharpay-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dev/js/sharpay-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sharpay.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "/dev/js/sharpay-min.js",
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -240,6 +331,16 @@
 		"oF": 1,
 		"oS": 0,
 		"sct": 0
+		},
+	"/dev/scss/sections/_sharpay.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_sharpay-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/dev/scss/sections/_sharpay.scss": {
 		"aP": 0,
