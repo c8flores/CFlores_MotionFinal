@@ -1,1 +1,0 @@
-import{gsap}from"gsap";const mphTL=gsap.timeline();export function mphAnimation(){return mphTL.from("#Oval",{opacity:0,duration:3}),logoTL}

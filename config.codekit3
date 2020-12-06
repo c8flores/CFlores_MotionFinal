@@ -158,13 +158,35 @@
 		"oAP": "/deploy/index.html",
 		"oF": 3
 		},
-	"/dev/js/mph/mph-min.js": {
+	"/dev/js/gps-screen/gps-screen.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
-		"oAP": "/dev/js/mph/mph-min-min.js",
+		"oAP": "/dev/js/gps-screen/gps-screen.js",
+		"oF": 3,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/marquee-left/marquee-left.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "/dev/js/marquee-left/marquee-left-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/marquee-right/marquee-right.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "/dev/js/marquee-right/marquee-right-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

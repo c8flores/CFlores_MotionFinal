@@ -9742,7 +9742,8 @@
   const logoTL = gsapWithCSS.timeline();
 
   function logoAnimation(){
-    logoTL.from("#mustang-logo", {opacity:0, duration:5});
+    logoTL.from("#big-mustang-logo", {opacity:0, duration:4, yPercent:50, alpha:1})
+          .from("#mustang-logo", {opacity:0, duration:5});
       
       return logoTL;
 
@@ -9751,10 +9752,11 @@
   const mphTL = gsapWithCSS.timeline();
 
   function mphAnimation(){
-    mphTL.from("#speedometer-circle-mph",{opacity:0, xPercent:-100, duration:1, scale: 1})
-      .from(".s-logo", {opacity: 0, duration:0.5, scale: 2, ease:"back"})      
-      .from(".lines", {opacity: 0, stagger:0.03, duration:0.01, ease:"back"})
-      .from(".speeds", {opacity: 0, stagger:0.02, duration:0.02, ease:"back"});     
+    mphTL.from("#speedometer-circle-mph",{opacity:0, xPercent:-100, duration:1, scale:1})
+      .from(".s-logo", {opacity:0, duration:0.5, scale: 2, ease:"back"})      
+      .from(".lines", {opacity:0, stagger:0.03, duration:0.01, ease:"back"})
+      .from(".speeds", {opacity:0, stagger:0.02, duration:0.02, ease:"back"})  
+      .delay(5);  
       
     return mphTL;
 
@@ -9763,29 +9765,68 @@
   const rpmTL = gsapWithCSS.timeline();
 
   function rpmAnimation(){
-    rpmTL.from("#speedometer-circle-rpm",{opacity:0, xPercent:100, duration:1, scale: 1})
-      .from(".e-logo", {opacity: 0, duration:0.5, scale: 2, ease:"back"})      
-      .from(".liness", {opacity: 0, stagger:0.03, duration:0.01, ease:"back"})
-      .from(".numbers", {opacity: 0, stagger:0.02, duration:0.02, ease:"back"});     
+    rpmTL.from("#speedometer-circle-rpm",{opacity:0, xPercent:100, duration:1, scale:1})
+      .from(".e-logo", {opacity:0, duration:0.5, scale:2, ease:"back"})      
+      .from(".liness", {opacity:0, stagger:0.03, duration:0.01, ease:"back"})
+      .from(".numbers", {opacity:0, stagger:0.02, duration:0.02, ease:"back"})
+      .delay(5);    
       
     return rpmTL;
 
   }
 
-  gsapWithCSS.registerPlugin(GSDevTools);
+  const marqueerightTL = gsapWithCSS.timeline();
 
+  function marqueerightAnimation(){
+      marqueerightTL.from("#marquee-turn-signal-right",{opacity:0, duration:1}) 
+      .delay(7);  
+      
+    return marqueerightTL;
+
+  }
+
+  const marqueeleftTL = gsapWithCSS.timeline();
+
+  function marqueeleftAnimation(){
+      marqueeleftTL.from("#marquee-turn-signal-left",{opacity:0, duration:1}) 
+      .delay(7);  
+      
+    return marqueeleftTL;
+
+  }
+
+  const gpsTL = gsapWithCSS.timeline();
+
+  function gpsAnimation(){
+    gpsTL.from(".dark",{opacity:0, duration:1, scale:1})
+      .from("#gem-copy-2", {opacity:0})
+      .from(".light", {opacity:0, stagger:0.07, duration:1, ease:"back"})
+      .from("#gem-copy", {opacity:0})
+      .delay(8);    
+      
+    return gpsTL;
+
+  }
+
+  gsapWithCSS.registerPlugin(GSDevTools);
 
   const logoTL$1 = gsapWithCSS.timeline();
       logoTL$1.add(logoAnimation());
 
-
   const mphTL$1 = gsapWithCSS.timeline();
       mphTL$1.add(mphAnimation());
-
 
   const rpmTL$1 = gsapWithCSS.timeline();
       rpmTL$1.add(rpmAnimation());
 
+  const marqueerightTL$1 = gsapWithCSS.timeline();
+      marqueerightTL$1.add(marqueerightAnimation());
+
+  const marqueeleftTL$1 = gsapWithCSS.timeline();
+      marqueeleftTL$1.add(marqueeleftAnimation());
+
+  const gpsTL$1 = gsapWithCSS.timeline();
+      gpsTL$1.add(gpsAnimation());    
 
 
 
