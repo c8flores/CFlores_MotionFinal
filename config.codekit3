@@ -158,14 +158,47 @@
 		"oAP": "/deploy/index.html",
 		"oF": 3
 		},
-	"/dev/js/mustang-logo/mustang-logo.js": {
+	"/dev/js/mph/mph-min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dev/js/mustang-logo/mustang-logo-min.js",
-		"oF": 1,
+		"oAP": "/dev/js/mph/mph-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/mph/mph.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/mph/mph-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/mustang-logo/mustang-logo.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "/dev/js/mustang-logo/mustang-logo.js",
+		"oF": 3,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/rpm/rpm.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/rpm/rpm-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -320,6 +353,16 @@
 		"oF": 1,
 		"oS": 0,
 		"sct": 0
+		},
+	"/dev/scss/sections/_sharpay.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_sharpay-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/dev/scss/sections/_sharpay.scss": {
 		"aP": 0,

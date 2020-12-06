@@ -12,42 +12,17 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        //height: 100vh;//
 
         svg{
             width: 100%;
-
-            #rpm{
-                display:none;
             }
 
-            #mph{
-                display:none;
-            }
-
-            #audio-svg{
-                display:none;
-            }
-
-            #gas-indicator{
-                display:none;
-            }
-
-            #gps-screen{
-                display:none;
-            }
-
-            #marquee-left{
-                display:none;
-            }
-
-            #marquee-right{
-                display:none;
-            }
-
-            #words{
-                display:none;
+            #mustang-logo{
+                grid-area: mustang-logo;
+                display: center;
+                justify-content: center;
+                align-items: center;
             }
         }
     }
-}

@@ -1,0 +1,23 @@
+/* =============
+    Demo
+============= */
+#sharpay-container {
+  display: grid;
+  grid-template-columns: auto 1% auto;
+  grid-template-areas: ". sharpay .";
+}
+#sharpay-container > div {
+  grid-area: sharpay;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sharpay-container > div svg {
+  width: 100%;
+}
+#sharpay-container > div #mustang-logo {
+  grid-area: mustang-logo;
+  display: center;
+  justify-content: center;
+  align-items: center;
+}
