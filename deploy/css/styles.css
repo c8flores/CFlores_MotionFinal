@@ -431,6 +431,7 @@ textarea {
   grid-template-columns: auto 1% auto;
   grid-template-areas: ". sharpay .";
 }
+
 #sharpay-container > div {
   grid-area: sharpay;
   display: flex;
@@ -438,6 +439,39 @@ textarea {
   align-items: center;
   height: 100vh;
 }
+
 #sharpay-container > div svg {
   width: 100%;
+}
+
+#sharpay-container > div svg #rpm {
+  display: none;
+}
+
+#sharpay-container > div svg #mph {
+  display: none;
+}
+
+#sharpay-container > div svg #audio-svg {
+  display: none;
+}
+
+#sharpay-container > div svg #gas-indicator {
+  display: none;
+}
+
+#sharpay-container > div svg #gps-screen {
+  display: none;
+}
+
+#sharpay-container > div svg #marquee-left {
+  display: none;
+}
+
+#sharpay-container > div svg #marquee-right {
+  display: none;
+}
+
+#sharpay-container > div svg #words {
+  display: none;
 }

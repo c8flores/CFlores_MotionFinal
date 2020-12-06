@@ -158,14 +158,14 @@
 		"oAP": "/deploy/index.html",
 		"oF": 3
 		},
-	"/dev/js/dash-background/background.js": {
+	"/dev/js/mustang-logo/mustang-logo.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dev/js/dash-background/background-min.js",
-		"oF": 0,
+		"oAP": "/dev/js/mustang-logo/mustang-logo-min.js",
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -180,25 +180,14 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/sharpay-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/sharpay-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"/dev/js/sharpay.js": {
 		"bF": 4,
 		"ft": 64,
 		"ma": 0,
 		"mi": 0,
 		"oA": 0,
-		"oAP": "/dev/js/sharpay-min.js",
-		"oF": 1,
+		"oAP": "/dev/js/sharpay.js",
+		"oF": 3,
 		"sC": 3,
 		"tS": 0
 		},
@@ -331,16 +320,6 @@
 		"oF": 1,
 		"oS": 0,
 		"sct": 0
-		},
-	"/dev/scss/sections/_sharpay.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_sharpay-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"/dev/scss/sections/_sharpay.scss": {
 		"aP": 0,
