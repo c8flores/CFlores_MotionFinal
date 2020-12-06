@@ -9739,11 +9739,23 @@
   GSDevTools.register = _initCore$2;
   _getGSAP$1() && gsap$2.registerPlugin(GSDevTools);
 
+  const biglogoTL = gsapWithCSS.timeline();
+
+  function biglogoAnimation(){
+    biglogoTL.from("#big-mustang-logo", {opacity:0, duration:2, xPercent:100})
+            .from("#MUSTANG", {fillOpacity:0, duration:2, xPercent:-100})
+          .to("#big-mustang-logo", {alpha:0, duration:2})
+          .to("#MUSTANG", {alpha:0, duration:2});
+      
+      return biglogoTL;
+
+  }
+
   const logoTL = gsapWithCSS.timeline();
 
   function logoAnimation(){
-    logoTL.from("#big-mustang-logo", {alpha:1, duration:4, yPercent:50})
-          .from("#mustang-logo", {opacity:0, duration:5});
+    logoTL.from(".small", {opacity:0, duration:5, yPercent:100})
+    .delay(5);
       
       return logoTL;
 
@@ -9779,7 +9791,7 @@
 
   function marqueerightAnimation(){
       marqueerightTL.from("#marquee-turn-signal-right",{opacity:0, duration:1}) 
-      .delay(7);  
+      .delay(7.5);  
       
     return marqueerightTL;
 
@@ -9789,7 +9801,7 @@
 
   function marqueeleftAnimation(){
       marqueeleftTL.from("#marquee-turn-signal-left",{opacity:0, duration:1}) 
-      .delay(7);  
+      .delay(7.5);  
       
     return marqueeleftTL;
 
@@ -9809,6 +9821,9 @@
   }
 
   gsapWithCSS.registerPlugin(GSDevTools);
+
+  const biglogoTL$1 = gsapWithCSS.timeline();
+  biglogoTL$1.add(biglogoAnimation());
 
   const logoTL$1 = gsapWithCSS.timeline();
       logoTL$1.add(logoAnimation());

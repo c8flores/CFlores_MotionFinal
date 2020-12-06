@@ -15,9 +15,3 @@
 #sharpay-container > div svg {
   width: 100%;
 }
-#sharpay-container > div #mustang-logo {
-  grid-area: mustang-logo;
-  display: center;
-  justify-content: center;
-  align-items: center;
-}

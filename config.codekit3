@@ -54,6 +54,14 @@
 		"oAP": "/dev/content/audio-svg/audio.html",
 		"oF": 0
 		},
+	"/dev/content/big-mustang-logo/big-mustang-logo.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/big-mustang-logo/big-mustang-logo.html",
+		"oF": 2
+		},
 	"/dev/content/dash-background/background.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -157,6 +165,17 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 3
+		},
+	"/dev/js/big-mustang-logo/big-mustang-logo.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/big-mustang-logo/big-mustang-logo-min.js",
+		"oF": 2,
+		"sC": 3,
+		"tS": 0
 		},
 	"/dev/js/gps-screen/gps-screen.js": {
 		"bF": 0,

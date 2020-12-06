@@ -4,7 +4,7 @@ const marqueeleftTL = gsap.timeline();
 
 export function marqueeleftAnimation(){
     marqueeleftTL.from("#marquee-turn-signal-left",{opacity:0, duration:1}) 
-    .delay(7);  
+    .delay(7.5);  
     
   return marqueeleftTL;
 

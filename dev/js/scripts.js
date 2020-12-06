@@ -4,6 +4,12 @@ import { GSDevTools } from "gsap/GSDevTools";
 gsap.registerPlugin(GSDevTools);
 
 
+import {biglogoAnimation} from "./big-mustang-logo/big-mustang-logo.js"
+
+const biglogoTL = gsap.timeline()
+biglogoTL.add(biglogoAnimation());
+
+
 import {logoAnimation} from "./mustang-logo/mustang-logo.js"
 
 const logoTL = gsap.timeline()
