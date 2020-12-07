@@ -7,7 +7,7 @@ export function gpsAnimation(){
     .from("#gem-copy-2", {opacity:0})
     .from(".light", {opacity:0, stagger:0.07, duration:1, ease:"back"})
     .from("#gem-copy", {opacity:0})
-    .delay(10);    
+    .delay(10.5);    
     
   return gpsTL;
 

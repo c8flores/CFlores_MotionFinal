@@ -9814,7 +9814,7 @@
       .from("#gem-copy-2", {opacity:0})
       .from(".light", {opacity:0, stagger:0.07, duration:1, ease:"back"})
       .from("#gem-copy", {opacity:0})
-      .delay(10);    
+      .delay(10.5);    
       
     return gpsTL;
 
@@ -9823,13 +9823,64 @@
   const gasTL = gsapWithCSS.timeline();
 
   function gasAnimation(){
-      gasTL.from("#gas-border",{opacity:0, duration:1, yPercent: 50})
-          .from(".star", {opacity:0, stagger:0.05, ease:"back"})
-      //.from(".light", {opacity:0, stagger:0.07, duration:1, ease:"back"})
-      //.from("#gem-copy", {opacity:0})
-      .delay(8);    
+      gasTL.from("#gas-border", {opacity:0, duration:1, yPercent: 50})
+          .from(".star", {opacity:0, stagger:0.06, ease:"back"})
+          .delay(9);    
       
     return gasTL;
+
+  }
+
+  const wordsTL = gsapWithCSS.timeline();
+
+  function wordsAnimation(){
+      wordsTL.from("#HELLO-MS-EVANS", {yPercent:200, duration:2})
+              .to("#HELLO-MS-EVANS", {alpha:0, duration:6})
+              .delay(5);
+              
+    return wordsTL;
+
+  }
+
+  const timeTL = gsapWithCSS.timeline();
+
+  function timeAnimation(){
+      timeTL.from(".time", {opacity:0, xPercent:-50, duration:1})
+            .from(".weather", {opacity:0, xPercent: 50, duration:1})
+            .delay(4.5);
+              
+    return timeTL;
+
+  }
+
+  const destinationTL = gsapWithCSS.timeline();
+
+  function destinationAnimation(){
+      destinationTL.from("#destination", {yPercent:300, duration:3})
+                  .to("#destination", {alpha:0, duration:7})
+                  .delay(11.5);
+              
+    return destinationTL;
+
+  }
+
+  const arrivalTL = gsapWithCSS.timeline();
+
+  function arrivalAnimation(){
+      arrivalTL.from("#arrival", {opacity:0, yPercent:300, duration:3})
+                  .delay(15);
+              
+    return arrivalTL;
+
+  }
+
+  const audioTL = gsapWithCSS.timeline();
+
+  function audioAnimation(){
+      audioTL.from("#audio", {opacity:0, duration:3})
+                  .delay(7);
+              
+    return audioTL;
 
   }
 
@@ -9857,9 +9908,22 @@
       gpsTL$1.add(gpsAnimation());
 
   const gasTL$1 = gsapWithCSS.timeline();
-      gasTL$1.add(gasAnimation());  
+      gasTL$1.add(gasAnimation());
 
+  const wordsTL$1 = gsapWithCSS.timeline();
+      wordsTL$1.add(wordsAnimation()); 
 
+  const timeTL$1 = gsapWithCSS.timeline();
+      timeTL$1.add(timeAnimation());
+
+  const destinationTL$1 = gsapWithCSS.timeline();
+      destinationTL$1.add(destinationAnimation());
+
+  const arrivalTL$1 = gsapWithCSS.timeline();
+      arrivalTL$1.add(arrivalAnimation());
+
+  const audioTL$1 = gsapWithCSS.timeline();
+      audioTL$1.add(audioAnimation());
 
 
 

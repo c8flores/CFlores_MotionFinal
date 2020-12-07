@@ -1,7 +1,10 @@
 import {gsap} from "gsap";
 import { GSDevTools } from "gsap/GSDevTools";
 
+
+
 gsap.registerPlugin(GSDevTools);
+
 
 
 import {biglogoAnimation} from "./big-mustang-logo/big-mustang-logo.js"
@@ -49,9 +52,37 @@ const gpsTL = gsap.timeline()
 import {gasAnimation} from "./gas-indicator/gas-indicator.js"
 
 const gasTL = gsap.timeline()
-    gasTL.add(gasAnimation());  
+    gasTL.add(gasAnimation());
 
 
+import {wordsAnimation} from "./words/words.js"
+
+const wordsTL = gsap.timeline()
+    wordsTL.add(wordsAnimation()); 
+
+
+import {timeAnimation} from "./time-weather/time-weather.js"
+
+const timeTL = gsap.timeline()
+    timeTL.add(timeAnimation());
+
+
+import {destinationAnimation} from "./destination/destination.js"
+
+const destinationTL = gsap.timeline()
+    destinationTL.add(destinationAnimation());
+
+
+import {arrivalAnimation} from "./arrival/arrival.js"
+
+const arrivalTL = gsap.timeline()
+    arrivalTL.add(arrivalAnimation());
+    
+
+import {audioAnimation} from "./audio-svg/audio-svg.js"
+
+const audioTL = gsap.timeline()
+    audioTL.add(audioAnimation());
 
 
 

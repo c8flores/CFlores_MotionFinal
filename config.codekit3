@@ -46,6 +46,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/content/arrival/arrival.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/arrival/arrival.html",
+		"oF": 0
+		},
 	"/dev/content/audio-svg/audio.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -68,6 +76,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/content/dash-background/background.html",
+		"oF": 0
+		},
+	"/dev/content/destination/destination.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/destination/destination.html",
 		"oF": 0
 		},
 	"/dev/content/gas-indicator/gas-indicator.kit": {
@@ -134,6 +150,14 @@
 		"oAP": "/dev/content/sharpay.html",
 		"oF": 0
 		},
+	"/dev/content/time-weather/time-weather.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/time-weather/time-weather.html",
+		"oF": 0
+		},
 	"/dev/content/words/words.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -166,6 +190,28 @@
 		"oAP": "/deploy/index.html",
 		"oF": 3
 		},
+	"/dev/js/arrival/arrival.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "/dev/js/arrival/arrival.js",
+		"oF": 3,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/audio-svg/audio-svg.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "/dev/js/audio-svg/audio-svg.js",
+		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/big-mustang-logo/big-mustang-logo.js": {
 		"bF": 0,
 		"ft": 64,
@@ -173,6 +219,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/big-mustang-logo/big-mustang-logo-min.js",
+		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/destination/destination.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/destination/destination-min.js",
 		"oF": 2,
 		"sC": 3,
 		"tS": 0
@@ -273,6 +330,28 @@
 		"oA": 0,
 		"oAP": "/dev/js/sharpay.js",
 		"oF": 3,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/time-weather/time-weather.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "/dev/js/time-weather/time-weather.js",
+		"oF": 3,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/words/words.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/words/words-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
