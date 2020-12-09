@@ -1,0 +1,1 @@
+import{gsap}from"gsap";var audio=document.audio("audio");function playMusic(){audio.play()}playMusic();

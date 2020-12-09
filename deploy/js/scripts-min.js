@@ -9945,7 +9945,6 @@
       gemTL$1.add(gemAnimation());
 
 
-
   //instantiate GSDevTools with default settings
   GSDevTools.create();
 

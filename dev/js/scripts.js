@@ -91,6 +91,5 @@ const gemTL = gsap.timeline()
     gemTL.add(gemAnimation());
 
 
-
 //instantiate GSDevTools with default settings
 GSDevTools.create();
