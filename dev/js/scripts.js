@@ -84,6 +84,12 @@ import {audioAnimation} from "./audio-svg/audio-svg.js"
 const audioTL = gsap.timeline()
     audioTL.add(audioAnimation());
 
+    
+import {gemAnimation} from "./audio-svg/gem.js"
+
+const gemTL = gsap.timeline()
+    gemTL.add(gemAnimation());
+
 
 
 //instantiate GSDevTools with default settings

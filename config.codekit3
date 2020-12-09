@@ -62,6 +62,14 @@
 		"oAP": "/dev/content/audio-svg/audio.html",
 		"oF": 0
 		},
+	"/dev/content/audio-svg/gem.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/audio-svg/gem.html",
+		"oF": 0
+		},
 	"/dev/content/big-mustang-logo/big-mustang-logo.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -206,9 +214,20 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/js/audio-svg/audio-svg.js",
-		"oF": 2,
+		"oF": 3,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/audio-svg/gem.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "/dev/js/audio-svg/gem.js",
+		"oF": 3,
 		"sC": 3,
 		"tS": 0
 		},
